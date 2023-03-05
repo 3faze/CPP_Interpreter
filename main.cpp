@@ -37,7 +37,9 @@ int main(int argc, char *argv[])
     }
     for (int j = 0; j < lines.size(); j++)
     {
-        cout << "[" << lines[j] << "] ";
+        // Interpreter code for the actual execution per line
+        string curr_line = lines[j];
+        cout << "[" << curr_line << "] ";
     }
     return 0;
 }
